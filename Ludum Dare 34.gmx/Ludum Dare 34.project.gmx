@@ -6,10 +6,24 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\Caveman</sprite>
+    <sprite>sprites\spr_GM</sprite>
+    <sprite>sprites\spr_startScreen</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\scr_getInputCode.gml</script>
+    <script>scripts\scr_init.gml</script>
+  </scripts>
+  <objects name="objects">
+    <object>objects\obj_gameMaster</object>
+    <object>objects\obj_startScreen</object>
+    <object>objects\obj_player</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\rm_startScreen</room>
+    <room>rooms\rm_01</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
